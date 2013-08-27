@@ -6,32 +6,31 @@ but has only very limited means of communication (e.g. eye blinks, eye gaze dire
 grunt, or single finger wiggle).
 
 This aims to be a protocol for doing that, which:
-
-# requires nothing more than information that will fit on a single credit card sized card
-# can be used very quickly, with zero training, under severe stress
-# makes two-way communication as efficient as possible
-# alleviates as many of the common frustrations as possible
-# makes minimal assumptions about what signals the subject can make
+* requires nothing more than information that will fit on a single credit card sized card
+* can be used very quickly, with zero training, under severe stress
+* makes two-way communication as efficient as possible
+* alleviates as many of the common frustrations as possible
+* makes minimal assumptions about what signals the subject can make
 
 
 Protocol Overview
 -----------------
 
-# Setup
-## Ask subject to enumerate all the signals they can make
-### Identify each by name (e.g. 'one blink', 'look left', etc.)
-### In random order, ask subject to make each signal on the list
-## Assign each signal, in order of ease, to the meanings on the list
-### E.g. the simplest signal (e.g. one blink) would mean 'yes'
-### In random order, ask subject to signal each meaning assigned
-# Q&A mode
-## Meanings: yes, no, wrong question, need attention, switch mode, warmer, colder
-## Questions to ask:
-### ...
-# Spelling mode (binary)
-## Meanings: first group, second group, backspace / mistake, switch mode, word break
-# Spelling mode (ternary) [preferred, if enough signals available]
-## Meanings: letter asked, before, after, backspace/mistake, switch mode, word break
+1. Setup
+    1.  Ask subject to enumerate all the signals they can make
+        1.  Identify each by name (e.g. 'one blink', 'look left', etc.)
+        2. In random order, ask subject to make each signal on the list
+    2. Assign each signal, in order of ease, to the meanings on the list
+        1. E.g. the simplest signal (e.g. one blink) would mean 'yes'
+        2. In random order, ask subject to signal each meaning assigned
+2. Q&A mode
+    *  Meanings: yes, no, wrong question, need attention, switch mode, warmer, colder
+    *  Questions to ask:
+        1. ...
+3. Spelling mode (binary)
+    *  Meanings: first group, second group, backspace / mistake, switch mode, word break
+4.  Spelling mode (ternary) [preferred, if enough signals available]
+    *  Meanings: letter asked, before, after, backspace/mistake, switch mode, word break
 
 Spelling mode
 -------------
