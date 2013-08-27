@@ -53,3 +53,21 @@ To make things even more efficient, we supplement the main tree with contextual
 differences. For instance, after the letter j, the most frequent letters by far
 are u, o, e, a, and i (in that order). Therefore, it's more efficient to ask
 about those next than to start over as if you didn't have context.
+
+References
+==========
+
+[Post where I discuss making the BNC corpus extraction](https://plus.google.com/103112149634414554669/posts/NFVDTpLFSDT)
+[Alex's post discussing Markov chain based optimization](https://plus.google.com/117472075050913769851/posts/Z6hySK3LEnL)
+[BNC corpus source](http://ucrel.lancs.ac.uk/bncfreq/flists.html)
+
+License & authorship
+====================
+
+This repository is co-authored by Sai, and Alex Fink. (I am Sai / @saizai, 
+and I actually experience locked-in type symptoms on a semi-regular basis, 
+which is what prompted me to make this.)
+
+The code in this repository is licensed public domain. The documents
+(i.e. not code or pure data dump) are licensed CC by-nc-sa. I'd appreciate an email
+aif you do anything with it.
