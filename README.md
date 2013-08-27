@@ -42,7 +42,7 @@ takes a long time, which makes communication more frustrating.
 Instead, we use a modified binary or ternary search method.
 
 For binary method, you look at the chart given for the next split to make - e.g.
-'is the letter K or earlier, or L or later?' - and repeat until you find a signal
+'is the letter K or earlier, or L or later?' - and repeat until you find a single
 letter. On average, this takes about 4.3 questions per letter.
 
 For ternary method, you look for which letter to ask about - e.g. 'is the letter
