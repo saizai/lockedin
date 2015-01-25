@@ -7,6 +7,8 @@ require 'json'
 @blink2time = 1
 @blink3time = 1
 @onechoicetime = 0.01
+@debug = false
+@log = false
 
 @lefttime, @yestime, @righttime = @blink1time, @blink2time, @blink3time
 
